@@ -50,15 +50,17 @@ if __name__ == '__main__':
 	y = np.array([1, 3, 6, 8])
 
 	# plot four data points on the plot
-	plt.style.use('ggplot')
+	# plt.style.use('ggplot')
+	plt.style.use('seaborn-whitegrid')
 	plt.plot(X, y, 'ro')
 
 
 	# TODO: replace the m_opt and b_opt with the solution you obtained from
 	# 		part (a), note that y = mx + b
 	"*** YOUR CODE HERE ***"
-	m_opt = 0
-	b_opt = 0
+	m_opt = 62/35
+	b_opt = 18/35 
+
 	"*** END YOUR CODE HERE ***"
 
 
@@ -71,16 +73,14 @@ if __name__ == '__main__':
 	#	3) Use a.reshape(-1,1), where a is a np.array, to reshape the array
 	#	   to appropraite shape for generating plot
 
-	X_space = []
-	y_space = []
 	"*** YOUR CODE HERE ***"
-
-
+	X_space = np.linspace(0, 5, 100)
+	y_space = m_opt*X_space+b_opt
 	"*** END YOUR CODE HERE ***"
 
 	# plot the optimal learn fit you obtained and save it to your current
 	# folder
-	plt.plot(X_space, y_space)
+	plt.plot(X_space, y_space,  color ='r')
 	plt.savefig('hw1pr2c.png', format='png')
 	plt.close()
 
@@ -95,9 +95,8 @@ if __name__ == '__main__':
 	# TODO: Generate white Gaussian noise
 	# HINT: Use np.random.normal to generate noise
 
-	noise = []
 	"*** YOUR CODE HERE ***"
-
+	noise = np.random.normal(loc = mu, scale = sigma, size = sampleSize)
 
 	"*** END YOUR CODE HERE ***"
 
@@ -109,6 +108,8 @@ if __name__ == '__main__':
 
 	y_space_rand = np.zeros(len(X_space))
 	"*** YOUR CODE HERE ***"
+
+	y_space_rand = y_space + noise 
 
 	"*** END YOUR CODE HERE ***"
 
@@ -127,8 +128,9 @@ if __name__ == '__main__':
 	X_space_stacked = X_space	# need to be replaced following hint 1 and 2
 	W_opt = None
 	"*** YOUR CODE HERE ***"
-
-
+	X_space_stacked =  np.vstack([np.ones(X_space.shape), X_space]).transpose()
+	W_opt = np.linalg.solve(np.matmul(X_space_stacked.transpose(),X_space_stacked),\
+		np.matmul(X_space_stacked.transpose(), y_space_rand))
 	"*** END YOUR CODE HERE ***"
 
 	# get the new m, and new b from W_opt obtained above
@@ -142,10 +144,8 @@ if __name__ == '__main__':
 	#	2) y = mx + b
 	#	3) Make sure the array is in appropraite shape using a.reshape(-1,1)
 
-	y_pred_rand = []
 	"*** YOUR CODE HERE ***"
-
-
+	y_pred_rand =  m_rand_opt * X_space + b_rand_opt
 	"*** END YOUR CODE HERE ***"
 
 	# generate plot
