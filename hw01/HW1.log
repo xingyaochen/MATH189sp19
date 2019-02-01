@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  29 JAN 2019 11:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 JAN 2019 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -334,32 +334,56 @@ LaTeX Font Info:    Font shape `U/msb/m/n' will be
 (Font)              scaled to size 7.29405pt on input line 27.
 LaTeX Font Info:    Font shape `OT1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ppl/b/n' tried instead on input line 27.
- [1
+LaTeX Font Info:    Try loading font information for U+fplmbb on input line 58.
 
-{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./
-HW1.aux) ) 
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ufplmbb.fd
+File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
+) [1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 99--102
+
+ []
+
+[2] [3] [4] <hw1pr2c.png, id=27, 462.528pt x 346.896pt>
+File: hw1pr2c.png Graphic file (type png)
+ <use hw1pr2c.png>
+Package pdftex.def Info: hw1pr2c.png used on input line 205.
+(pdftex.def)             Requested size: 396.3396pt x 297.2714pt.
+
+<hw1pr2d.png, id=29, 462.528pt x 346.896pt>
+File: hw1pr2d.png Graphic file (type png)
+ <use hw1pr2d.png>
+Package pdftex.def Info: hw1pr2d.png used on input line 207.
+(pdftex.def)             Requested size: 396.3396pt x 297.2714pt.
+ [5 <./hw1pr2c.png>] [6 <./hw1pr2d.png>] (./HW1.aux) ) 
 Here is how much of TeX's memory you used:
- 3560 strings out of 493014
- 47705 string characters out of 6133351
- 114396 words of memory out of 5000000
- 7024 multiletter control sequences out of 15000+600000
- 22735 words of font info for 67 fonts, out of 8000000 for 9000
+ 3589 strings out of 493014
+ 48115 string characters out of 6133351
+ 125419 words of memory out of 5000000
+ 7038 multiletter control sequences out of 15000+600000
+ 25584 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,10n,32p,263b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr
-/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmb.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/mathpazo/fplmbi.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/loc
-al/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on HW1.pdf (2 pages, 75153 bytes).
+ 37i,16n,32p,263b,373s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/
+texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2016/texmf-dist/font
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
+pe1/public/mathpazo/fplmb.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/mathpazo/fplmbb.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/mathpazo/fplmbi.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ma
+thpazo/fplmr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
+s/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
+fonts/symbols/msbm10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/pa
+latino/uplb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/
+uplr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/palatino/uplri8a
+.pfb>
+Output written on HW1.pdf (6 pages, 137276 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 77 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

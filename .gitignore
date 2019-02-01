@@ -1,0 +1,9 @@
+*.pyc
+*.tex
+*.cls
+*.fls
+*.log 
+*.png
+*.gz
+*.zip
+*.fdb_latexmk
